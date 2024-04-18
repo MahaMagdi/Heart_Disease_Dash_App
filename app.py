@@ -186,7 +186,7 @@ physical_activity_mapping = {
 # Initialize the Dash app
 external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css']
 app = dash.Dash(__name__,external_stylesheets=external_stylesheets)
-server = app.server()
+server = app.server
 
 # Define custom CSS styles for dropdowns and input fields
 dropdown_style = {
